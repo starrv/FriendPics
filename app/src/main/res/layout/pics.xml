@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/title_size"
+        android:text="progress..."
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:minHeight="@dimen/com_facebook_profilepictureview_preset_size_small"
+        android:minWidth="@dimen/com_facebook_profilepictureview_preset_size_small"
+        android:maxHeight="@dimen/com_facebook_profilepictureview_preset_size_normal"
+        android:maxWidth="@dimen/com_facebook_profilepictureview_preset_size_normal"
+        android:src="@drawable/friend_pics_2"
+        />
+</LinearLayout>
